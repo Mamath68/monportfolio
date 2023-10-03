@@ -2,9 +2,11 @@ import React from 'react'
 import html from '../assets/html.png'
 import css from '../assets/css.png'
 import javascript from '../assets/javascript.png'
+import php from '../assets/php.png'
 import reactImage from '../assets/react.png'
-import graphql from '../assets/graphql.png'
-import nextJs from '../assets/nextjs.png'
+import bootstrap from '../assets/bootstrap.png'
+import mysql from '../assets/mysql.png'
+import heidisql from '../assets/heidisql.png'
 import gitHub from '../assets/github.png'
 import tailwind from '../assets/tailwind.png'
 
@@ -37,14 +39,14 @@ const Experience = () => {
         },
         {
             id: 5,
-            src: graphql,
-            name: "GraphQl",
+            src: bootstrap,
+            name: "Bootstrap",
             style: "shadow-pink-400"
         },
         {
             id: 6,
-            src: nextJs,
-            name: "Next JS",
+            src: mysql,
+            name: "MySQL",
             style: "shadow-white"
         },
         {
@@ -58,6 +60,18 @@ const Experience = () => {
             src: tailwind,
             name: "TailWind",
             style: "shadow-sky-500"
+        },
+        {
+            id: 9,
+            src: php,
+            name: "PHP",
+            style: "shadow-blue"
+        },
+        {
+            id: 10,
+            src: heidisql,
+            name: "HeidiSQL",
+            style: "shadow-green-500"
         },
     ]
 
