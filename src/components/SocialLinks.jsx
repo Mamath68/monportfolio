@@ -13,7 +13,7 @@ const SocialLinks = () => {
                     LinkedIn <FaLinkedin size={30} />
                 </>
             ),
-            href: 'https://www.linkedin.com/',
+            href: 'https://www.linkedin.com/in/mathieu-stamm-680885224/',
         },
         {
             id: 2,
