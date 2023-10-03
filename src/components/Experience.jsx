@@ -65,7 +65,7 @@ const Experience = () => {
             id: 9,
             src: php,
             name: "PHP",
-            style: "shadow-blue"
+            style: "shadow-blue-200"
         },
         {
             id: 10,
