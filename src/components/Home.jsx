@@ -16,9 +16,9 @@ const Home = () => {
                         I'm a FrontEnd Developer
                     </h2>
                     <p className='text-gray-500 py-4 max-w-md'>
-                        I'm a brand new Developer out of the school.
+                        I'm a developer fresh out of school.
                         Currently, I am looking for a first job in web development.
-                        I try new technologies like React, Tailwind, symfony or angular..
+                        I try new technologies like React, Tailwind, symfony or angular...
                     </p>
 
                     <div>
