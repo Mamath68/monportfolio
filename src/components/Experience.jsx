@@ -9,6 +9,7 @@ import mysql from '../assets/mysql.png'
 import heidisql from '../assets/heidisql.png'
 import gitHub from '../assets/github.png'
 import tailwind from '../assets/tailwind.png'
+import node from '../assets/node.png'
 
 const Experience = () => {
 
@@ -72,6 +73,12 @@ const Experience = () => {
             src: heidisql,
             name: "HeidiSQL",
             style: "shadow-green-500"
+        },
+        {
+            id: 11,
+            src: node,
+            name: "Node JS",
+            style: "shadow-pink-500"
         },
     ]
 
