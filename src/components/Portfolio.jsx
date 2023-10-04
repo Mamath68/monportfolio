@@ -4,7 +4,7 @@ import simpson from "../assets/portfolio/simpson.jpg"
 import appliphp from "../assets/portfolio/appli_php.jpg"
 import yugioh from "../assets/portfolio/Yugioh.jpg"
 import landingPage from "../assets/portfolio/landingPage.jpg"
-import forum from "../assets/portfolio/forum.jpg"
+import forum from "../assets/portfolio/forum.jpeg"
 
 const Portfolio = () => {
 
