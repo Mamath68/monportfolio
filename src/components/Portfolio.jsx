@@ -3,7 +3,7 @@ import cinema from "../assets/portfolio/cinema.jpg"
 import simpson from "../assets/portfolio/simpson.jpg"
 import appliphp from "../assets/portfolio/appli_php.jpeg"
 import yugioh from "../assets/portfolio/Yugioh.jpg"
-import landingPage from "../assets/portfolio/landingPage.jpeg"
+import landingPage from "../assets/portfolio/landingPage.jpg"
 import forum from "../assets/portfolio/forum.jpeg"
 
 const Portfolio = () => {
@@ -43,9 +43,9 @@ const Portfolio = () => {
     return (
         <div
             name="portfolio"
-            className="bg-gradient-to-b from-black to-gray-800 w-full min-h-screen text-white md:min-h-screen"
+            className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
         >
-            <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full min-h-screen">
+            <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
                 <div className="pb-8">
                     <p className="text-4xl font-bold inline border-b-4 border-gray-500">
                         Portfolio
