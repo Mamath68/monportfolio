@@ -11,32 +11,32 @@ const Portfolio = () => {
     const portfolios = [
         {
             id: 1,
-            img: cinema,
+            src: cinema,
             href: 'https://github.com/Mamath68/Cinema_POO/tree/version-Framework',
         },
         {
             id: 2,
-            img: reactParallax,
+            src: reactParallax,
             href: 'https://www.linkedin.com/in/mathieu-stamm-680885224/',
         },
         {
             id: 3,
-            img: navbar,
+            src: navbar,
             href: 'https://www.linkedin.com/in/mathieu-stamm-680885224/',
         },
         {
             id: 4,
-            img: reactSmooth,
+            src: reactSmooth,
             href: 'https://www.linkedin.com/in/mathieu-stamm-680885224/',
         },
         {
             id: 5,
-            img: installNode,
+            src: installNode,
             href: 'https://www.linkedin.com/in/mathieu-stamm-680885224/',
         },
         {
             id: 6,
-            img: reactWeather,
+            src: reactWeather,
             href: 'https://www.linkedin.com/in/mathieu-stamm-680885224/',
         },
     ]
@@ -54,11 +54,11 @@ const Portfolio = () => {
                 </div>
 
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-                    {portfolios.map(({ id, img, href }) => (
+                    {portfolios.map(({ id, src, href }) => (
                         <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
-                            <img
-                                img={img}
-                                alt={img}
+                            <src
+                                src={src}
+                                alt={src}
                                 className="rounded-md duration:200 hover:scale-105"
                             />
                             <div className="flex items-center justify-center">
