@@ -13,6 +13,6 @@
     }
 
     .h-screen {
-        height: 115vh;
+        height: 115vh !important;
     }
 }
