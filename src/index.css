@@ -12,7 +12,11 @@
         font-family: 'Raleway', sans-serif;
     }
 
-    *{
+    .h-screen {
+        height: 115vh !important;
+    }
+
+    * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
