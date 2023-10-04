@@ -7,8 +7,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
-    html{
+@layer base {
+    html {
         font-family: 'Raleway', sans-serif;
+    }
+
+    .h-screen {
+        height: 115vh;
     }
 }
