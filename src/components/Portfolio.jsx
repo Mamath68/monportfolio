@@ -1,10 +1,10 @@
 import React from 'react'
 import cinema from '../assets/portfolio/cinema.jpg'
-import installNode from '../assets/portfolio/installNode.jpg'
-import navbar from '../assets/portfolio/navbar.jpg'
-import reactParallax from '../assets/portfolio/reactParallax.jpg'
-import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
-import reactWeather from '../assets/portfolio/reactWeather.jpg'
+import simpson from '../assets/portfolio/simpson.jpg'
+import AppliPHP from '../assets/portfolio/appli_php.jpg'
+import Yugioh from '../assets/portfolio/Yugioh.jpg'
+import landingPage from '../assets/portfolio/landingPage.jpg'
+import forum from '../assets/portfolio/forum.jpeg'
 
 const Portfolio = () => {
 
@@ -16,28 +16,28 @@ const Portfolio = () => {
         },
         {
             id: 2,
-            src: reactParallax,
-            href: 'https://www.linkedin.com/in/mathieu-stamm-680885224/',
+            src: Yugioh,
+            href: 'https://github.com/Mamath68/ProjetElan2023',
         },
         {
             id: 3,
-            src: navbar,
-            href: 'https://www.linkedin.com/in/mathieu-stamm-680885224/',
+            src: AppliPHP,
+            href: 'https://github.com/Mamath68/Appli_PHP',
         },
         {
             id: 4,
-            src: reactSmooth,
-            href: 'https://www.linkedin.com/in/mathieu-stamm-680885224/',
+            src: landingPage,
+            href: 'https://github.com/Mamath68/Landing-Page',
         },
         {
             id: 5,
-            src: installNode,
-            href: 'https://www.linkedin.com/in/mathieu-stamm-680885224/',
+            src: simpson,
+            href: 'https://github.com/Mamath68/Simpsons',
         },
         {
             id: 6,
-            src: reactWeather,
-            href: 'https://www.linkedin.com/in/mathieu-stamm-680885224/',
+            src: forum,
+            href: 'https://github.com/Mamath68/forum_pdo',
         },
     ]
     return (
