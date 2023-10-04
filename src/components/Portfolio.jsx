@@ -1,10 +1,10 @@
 import React from 'react'
-import cinema from 'assets/portfolio/cinema.jpg'
-import installNode from 'assets/portfolio/installNode.jpg'
-import navbar from 'assets/portfolio/navbar.jpg'
-import reactParallax from 'assets/portfolio/reactParallax.jpg'
-import reactSmooth from 'assets/portfolio/reactSmooth.jpg'
-import reactWeather from 'assets/portfolio/reactWeather.jpg'
+import cinema from '../assets/portfolio/cinema.jpg'
+import installNode from '../assets/portfolio/installNode.jpg'
+import navbar from '../assets/portfolio/navbar.jpg'
+import reactParallax from '../assets/portfolio/reactParallax.jpg'
+import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
+import reactWeather from '../assets/portfolio/reactWeather.jpg'
 
 const Portfolio = () => {
 
@@ -56,7 +56,7 @@ const Portfolio = () => {
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
                     {portfolios.map(({ id, src, href }) => (
                         <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
-                            <src
+                            <img
                                 src={src}
                                 alt={src}
                                 className="rounded-md duration:200 hover:scale-105"
