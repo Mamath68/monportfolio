@@ -3,8 +3,8 @@ import cinema from "../assets/portfolio/cinema.jpg"
 import simpson from "../assets/portfolio/simpson.jpg"
 import appliphp from "../assets/portfolio/appli_php.jpg"
 import yugioh from "../assets/portfolio/Yugioh.jpg"
-import landingPage from "../assets/portfolio/landingPage.jpeg"
-import forum from "../assets/portfolio/forum.jpeg"
+import landingPage from "../assets/portfolio/landingPage.jpg"
+import forum from "../assets/portfolio/forum.jpg"
 
 const Portfolio = () => {
 
