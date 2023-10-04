@@ -4,7 +4,6 @@ import simpson from "../assets/portfolio/simpson.jpg"
 import appliphp from "../assets/portfolio/appli_php.jpg"
 import yugioh from "../assets/portfolio/Yugioh.jpg"
 import landingPage from "../assets/portfolio/landingPage.jpg"
-import forum from "../assets/portfolio/forum.jpeg"
 
 const Portfolio = () => {
 
@@ -33,11 +32,6 @@ const Portfolio = () => {
             id: 5,
             src: simpson,
             href: "https://github.com/Mamath68/Simpsons",
-        },
-        {
-            id: 6,
-            src: forum,
-            href: "https://github.com/Mamath68/forum_pdo",
         },
     ]
     return (
