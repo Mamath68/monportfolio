@@ -1,7 +1,7 @@
 import React from "react"
 import cinema from "../assets/portfolio/cinema.jpg"
 import simpson from "../assets/portfolio/simpson.jpg"
-import appliphp from "../assets/portfolio/appli_php.jpg"
+import appliphp from "../assets/portfolio/appli_php.jpeg"
 import yugioh from "../assets/portfolio/Yugioh.jpg"
 import landingPage from "../assets/portfolio/landingPage.jpg"
 
