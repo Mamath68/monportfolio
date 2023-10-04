@@ -1,8 +1,8 @@
 import React from "react"
 import cinema from "../assets/portfolio/cinema.jpg"
 import simpson from "../assets/portfolio/simpson.jpg"
-import AppliPHP from "../assets/portfolio/appli_php.jpg"
-import Yugioh from "../assets/portfolio/Yugioh.jpg"
+import appliphp from "../assets/portfolio/appli_php.jpg"
+import yugioh from "../assets/portfolio/Yugioh.jpg"
 import landingPage from "../assets/portfolio/landingPage.jpg"
 import forum from "../assets/portfolio/forum.jpeg"
 
@@ -16,12 +16,12 @@ const Portfolio = () => {
         },
         {
             id: 2,
-            src: Yugioh,
+            src: yugioh,
             href: "https://github.com/Mamath68/ProjetElan2023",
         },
         {
             id: 3,
-            src: AppliPHP,
+            src: appliphp,
             href: "https://github.com/Mamath68/Appli_PHP",
         },
         {
