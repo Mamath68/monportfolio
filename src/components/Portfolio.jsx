@@ -1,10 +1,10 @@
-import React from 'react'
-import cinema from '../assets/portfolio/cinema.jpg'
-import simpson from '../assets/portfolio/simpson.jpg'
-import AppliPHP from '../assets/portfolio/appli_php.jpg'
-import Yugioh from '../assets/portfolio/Yugioh.jpg'
-import landingPage from '../assets/portfolio/landingPage.jpg'
-import forum from '../assets/portfolio/forum.jpeg'
+import React from "react"
+import cinema from "../assets/portfolio/cinema.jpg"
+import simpson from "../assets/portfolio/simpson.jpg"
+import AppliPHP from "../assets/portfolio/appli_php.jpg"
+import Yugioh from "../assets/portfolio/Yugioh.jpg"
+import landingPage from "../assets/portfolio/landingPage.jpg"
+import forum from "../assets/portfolio/forum.jpeg"
 
 const Portfolio = () => {
 
@@ -12,32 +12,32 @@ const Portfolio = () => {
         {
             id: 1,
             src: cinema,
-            href: 'https://github.com/Mamath68/Cinema_POO/tree/version-Framework',
+            href: "https://github.com/Mamath68/Cinema_POO/tree/version-Framework",
         },
         {
             id: 2,
             src: Yugioh,
-            href: 'https://github.com/Mamath68/ProjetElan2023',
+            href: "https://github.com/Mamath68/ProjetElan2023",
         },
         {
             id: 3,
             src: AppliPHP,
-            href: 'https://github.com/Mamath68/Appli_PHP',
+            href: "https://github.com/Mamath68/Appli_PHP",
         },
         {
             id: 4,
             src: landingPage,
-            href: 'https://github.com/Mamath68/Landing-Page',
+            href: "https://github.com/Mamath68/Landing-Page",
         },
         {
             id: 5,
             src: simpson,
-            href: 'https://github.com/Mamath68/Simpsons',
+            href: "https://github.com/Mamath68/Simpsons",
         },
         {
             id: 6,
             src: forum,
-            href: 'https://github.com/Mamath68/forum_pdo',
+            href: "https://github.com/Mamath68/forum_pdo",
         },
     ]
     return (
@@ -46,7 +46,7 @@ const Portfolio = () => {
             className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
         >
             <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-                <div className='pb-8'>
+                <div className="pb-8">
                     <p className="text-4xl font-bold inline border-b-4 border-gray-500">
                         Portfolio
                     </p>
