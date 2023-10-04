@@ -1,5 +1,5 @@
 import React from 'react'
-import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg'
+import cinema from '../assets/portfolio/cinema.jpg'
 import installNode from '../assets/portfolio/installNode.jpg'
 import navbar from '../assets/portfolio/navbar.jpg'
 import reactParallax from '../assets/portfolio/reactParallax.jpg'
@@ -11,27 +11,33 @@ const Portfolio = () => {
     const portfolios = [
         {
             id: 1,
-            src: arrayDestruct
+            img: cinema,
+            href: 'https://github.com/Mamath68/Cinema_POO/tree/version-Framework',
         },
         {
             id: 2,
-            src: reactParallax
+            img: reactParallax,
+            href: 'https://www.linkedin.com/in/mathieu-stamm-680885224/',
         },
         {
             id: 3,
-            src: navbar
+            img: navbar,
+            href: 'https://www.linkedin.com/in/mathieu-stamm-680885224/',
         },
         {
             id: 4,
-            src: reactSmooth
+            img: reactSmooth,
+            href: 'https://www.linkedin.com/in/mathieu-stamm-680885224/',
         },
         {
             id: 5,
-            src: installNode
+            img: installNode,
+            href: 'https://www.linkedin.com/in/mathieu-stamm-680885224/',
         },
         {
             id: 6,
-            src: reactWeather
+            img: reactWeather,
+            href: 'https://www.linkedin.com/in/mathieu-stamm-680885224/',
         },
     ]
     return (
@@ -48,11 +54,11 @@ const Portfolio = () => {
                 </div>
 
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-                    {portfolios.map(({ id, src }) => (
+                    {portfolios.map(({ id, img, href }) => (
                         <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
                             <img
-                                src={src}
-                                alt={src}
+                                img={img}
+                                alt={img}
                                 className="rounded-md duration:200 hover:scale-105"
                             />
                             <div className="flex items-center justify-center">
@@ -60,7 +66,7 @@ const Portfolio = () => {
                                     Demo
                                 </button>
                                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                                    Code
+                                    <a href={href} target="_blank" rel="noopener noreferrer">Code</a>
                                 </button>
                             </div>
                         </div>
